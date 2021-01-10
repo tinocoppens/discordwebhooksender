@@ -1,3 +1,11 @@
+#you need
+#-python3
+#-requests (pip install requests)
+
+
+
+
+
 #import requests
 import requests
 
