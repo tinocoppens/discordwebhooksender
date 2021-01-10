@@ -18,7 +18,7 @@ data = {
 }
 
 
-#Post data to url
+#send post request to url
 requests.post(url, data)
 
 
