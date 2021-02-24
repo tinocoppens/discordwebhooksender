@@ -18,7 +18,7 @@ discordwebhookpictureurl = input("Profile Picture URL : ")
 #define url
 url = discordwebhook
 
-#packet
+#for post req
 data = {
     "content" : discordwebhookcontent,
     "username" : discordwebhookusername,
@@ -26,7 +26,7 @@ data = {
 }
 
 
-#send post request to url
+#send post request to discord api
 requests.post(url, data)
 
 
