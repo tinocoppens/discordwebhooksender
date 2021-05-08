@@ -29,5 +29,3 @@ data = {
 #send post request to discord api
 requests.post(url, data)
 
-
-print("Done ! Made by Tino.")
